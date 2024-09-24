@@ -20,7 +20,6 @@ public class Main {
         checkAge(0);
         checkAge(-46);
 
-        System.out.println("Ende");
     }
 
     public static boolean checkAge(int age) {
