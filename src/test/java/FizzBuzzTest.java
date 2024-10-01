@@ -67,7 +67,7 @@ public class FizzBuzzTest {
     @Test
     public void fizzBuzzTest_when0_thenReturnStringFizzBuzz() {
         //GIVEN
-        int value = 0;
+        int value = -1;
 
         //WHEN
         String actual = FizzBuzz.fizzBuzz(value);
