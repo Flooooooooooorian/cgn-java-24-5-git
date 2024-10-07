@@ -20,8 +20,17 @@ public class Main {
         System.out.println(oleCup.material);
         System.out.println(oleCup.print);
 
-        Cup dariosCup = new Cup(true, "weiß", null, 250, "Keramik");
+//        Cup dariosCup = new Cup(true, "blau", null, 250, "Keramik");
 
+
+        System.out.println("-------------------------");
+
+
+        Cup.myStaticMethod();
+
+//        dariosCup.myNonStaticMethod();
+        oleCup.myNonStaticMethod();
+        robersCup.myNonStaticMethod();
 
     }
 }
