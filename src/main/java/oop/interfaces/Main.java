@@ -38,6 +38,14 @@ public class Main {
         System.out.println(Arrays.toString(myAnimals));
 
         System.out.println(myAnimals[2]);
+
+
+        Human h = new Human();
+        h.makeSound();
+
+        Human h2 = new Human();
+        h2.setName("Florian");
+        h2.makeSound();
     }
 
     public static void myAnimal(Animal a) {
