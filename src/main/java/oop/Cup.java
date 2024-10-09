@@ -1,5 +1,7 @@
 package oop;
 
+import java.math.BigDecimal;
+
 public class Cup {
 
     public static final int FULL_AGE = 18;
