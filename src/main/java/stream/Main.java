@@ -53,5 +53,9 @@ public class Main {
         System.out.println(sum2);
     }
 
+    public void stream() {
+        List.of("a", "b", "c").stream()
+                .forEach(System.out::println);
+    }
 
 }
