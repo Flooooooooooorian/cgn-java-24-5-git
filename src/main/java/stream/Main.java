@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
 
@@ -39,5 +40,18 @@ public class Main {
 
         System.out.println(names);
         System.out.println(greetings);
+
+        Stream.of("Anton", "Berta", "Cäsar")
+                .peek(System.out::println)
+                .collect(Collectors.toList());
+
+
+        int sum1 = List.of(1,2,3).stream().reduce(0, (a, b) -> a + b);
+        int sum2 = List.of(1,2,3).stream().reduce(0, (a,b) -> Integer.sum(a, b));
+
+        System.out.println(sum1);
+        System.out.println(sum2);
     }
+
+
 }
